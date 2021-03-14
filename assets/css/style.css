@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffdfba;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Major Mono Display','Courier New', Courier, monospace;
+    background-color: #ffb3ba;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+.header h1 .paulina {
+    color: #ffffba;
+    font-family: 'Major Mono Display','Courier New', Courier, monospace;
+}
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Major Mono Display','Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+a {
+    color: #ffffba;
+    text-decoration: none;
+}
