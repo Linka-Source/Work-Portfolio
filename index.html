@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Paulina's Portfolio</title>
-    <!-- Created Title -->
+
 </head>
 
 <body>
@@ -23,9 +23,10 @@
                 <li>
                     <a href="#resume">Resume</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="#collaborate">Collaborate</a>
-                </li>
+                </li> -->
+                <!-- Use later on as the site develops -->
                 <li>
                     <a href="#contact">Contact Paulina</a>
                 </li>
@@ -33,28 +34,61 @@
         </div>
     </header>
 
-    <article class="projects">
-        <div id="list-of-projects" class="list-of-projects">
-            <img alt="Image of computer." src="./assets/images/computer.jpeg" class="float-left article-image"/>
-            <h2>Paulina's Projects</h2>
-        </div>
+    <background class="background-image"></background>
+    <div id="projects" class="box-design content-heading">
+        <!-- <img alt="Image of computer." src="./assets/images/computer.jpeg" class="float-left project-image"/> -->
+        <!-- Undecided whether to use this -->
+        <h2>Paulina's Projects</h2>
+    </div>
 
-        <div id="gary-clark-fanpage" class="gary-clark-fanpage">
-            <img alt="Image of Gary Clark Jr." src="./assets/images/gary.jpg" class="float-left article-image"/>
-            <h2>Gary Clark Jr Fanpage</h2>
+    <article class="my-projects">
+        <div id="gary-clark-fanpage" class="box-design">
+            <a href="https://www.garyclarkjr.com/">
+            <!-- why is it not working??? links but squashes Gary -->
+            <img alt="Image of Gary Clark Jr." src="./assets/images/gary.jpg" class="project-image"/></a>
+            <h2 class="content-heading">Gary Clark Jr Fanpage</h2>
             <p>
                 Gary Lee Clark Jr. (born February 15, 1984) is an American musician from Austin, Texas. He is best known for his fusion of blues, rock and soul music with elements of hip hop.
             </p>
         </div>
 
-        <div id="My First Website" class="my-first-website box-design content-heading">
-            <img alt="Image of a panda, waving." src="./assets/images/panda.jpeg" class="float-right article-image"/>
-            <h2>Pandas Are Cool!</h2>
+        <div id="My First Website" class="box-design">
+            <a href="https://www.wwf.org.uk/learn/fascinating-facts/pandas">
+            <img alt="Image of a panda, waving." src="./assets/images/panda.jpeg" class="project-image"/></a>
+            <h2 class="content-heading">Pandas Are Cool!</h2>
             <p>
                 Panda poop points in their direction of travel, so they can be easily tracked in the wild. Unfortunately, historically this led to them being more endangered, but now it aids researchers.
             </p>
         </div>
 
+        <div id="Introduction" class="box-design">
+            <a href="https://linka-source.github.io/prework-about-me/">
+            <img alt="Post-it notes." src="./assets/images/where-what-why.jpg" class="project-image"/></a>
+            <h2 class="content-heading">Introductory Website</h2>
+            <p>
+                A quick introduction - where, what, why.
+            </p>
+        </div>
     </article>
+
+        <div id="about" class="about-me">
+            <class class="my-image about-me-heading">
+                <h3>About Me</h3>
+                <img src="./assets/images/my-mug.jpg" class="block-image"/>
+                <p>
+                    A building surveyor, trying to learn web development.
+                </p>
+            </class>
+            </div>
+        
+        <div id="resume">
+            <a href="./assets/docs/resume.pdf" download></a>
+
+        </div>
+
+     <footer class="footer">
+            <h4>Made with 🍔 by Paulina</h4>
+        </footer>
+    
 </body>
 </html>
