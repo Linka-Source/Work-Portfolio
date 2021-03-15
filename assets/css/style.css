@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    padding: 20px;
+    padding: 80px;
     font-family: 'Major Mono Display','Courier New', Courier, monospace;
     background-color: #ffb3ba;
     color: #ffffff;
@@ -24,7 +24,7 @@ body {
     font-family: 'Major Mono Display','Courier New', Courier, monospace;
 }
 .header div {
-    padding-top: 15px;
+    padding-top: 20px;
     margin-right: 20px;
     float: right;
     font-family: 'Major Mono Display','Courier New', Courier, monospace;
@@ -39,7 +39,124 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
 a {
     color: #ffffba;
     text-decoration: none;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+.background-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: "./assets/images/background.jpg";
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.my-projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 20px; */
+    padding: 70px;
+}
+
+.project-image {
+    max-height: 200px;
+    border-radius: 30%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.about-me {
+    padding: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #cc9999;
+}
+
+/* .about-me-image {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+.about-me-heading {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.block-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.box-design {
+    margin-bottom: 20px;
+    font-family: 'Major Mono Display','Courier New', Courier, monospace;
+    color: #8b6363;
+    border-radius: 40%; 
+    width: 100%;
+    padding: 10px;
+}
+@media (min-width: 768px) {
+    .box-design {
+        width: 50%;
+    }
+
+    .box-design:first-child {
+        width: 100%;
+    }
+}
+.content-heading {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-me{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.my-image {
+    margin-bottom: 32px;
+    color: #ffffff;
+    font-family:'Major Mono Display' 'Courier New', Courier, monospace;
+}
+
+.block-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 16px;
 }
