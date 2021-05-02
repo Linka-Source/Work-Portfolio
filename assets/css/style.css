@@ -79,9 +79,9 @@ p {
 
 .project-image {
     max-height: 200px;
-    border-radius: 30%;
+    border-radius: 10%;
     padding-bottom: 5%;
-    width: 100%;
+    width: 20%;
 }
 
 .about-me {
