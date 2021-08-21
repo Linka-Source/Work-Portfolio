@@ -48,6 +48,8 @@ a {
 
 p {
     font-size: 16px;
+    color: #ffffba;
+    text-decoration: none;
 }
 
 .background-image {
@@ -92,6 +94,7 @@ p {
 
 .link-text {
     color: #ffffba;
+    text-decoration: none;
 }
 
 /* .about-me-image {
