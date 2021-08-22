@@ -26,6 +26,8 @@ SO THAT I can open a downloadable resume in a new tab
 
 * [Questions](#questions)
 
+* [Technologies Used](#technologies)
+
 
 ## Usage
 
@@ -34,6 +36,10 @@ To use the application, click on this link: https://linka-source.github.io/Work-
 ## License
 
 This project is licensed under the MIT license.
+
+## Technologies
+
+HTML
   
 ## Screenshots
 
