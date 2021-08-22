@@ -37,6 +37,9 @@ This project is licensed under the MIT license.
   
 ## Screenshots
 
+![image](https://user-images.githubusercontent.com/76650898/130353328-9491388e-01ab-491a-ba9c-074aabbfddfc.png)
+
+![image](https://user-images.githubusercontent.com/76650898/130353352-e641c907-6935-4602-b686-2d505225e05d.png)
 
 ## Questions
 
